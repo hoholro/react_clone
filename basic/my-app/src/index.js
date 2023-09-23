@@ -4,6 +4,7 @@ import "./index.css";
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 import AppProfile from "./AppProfile";
+import Avatar from './components/Avatar';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
