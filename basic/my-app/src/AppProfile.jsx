@@ -11,6 +11,7 @@ export default function AppProfile() {
   <>
 
   <button onClick={(hanleClick)}>수경수버튼</button>
+  
   <Avatar 
   image='https://i.pinimg.com/564x/1f/d3/03/1fd3036613cfff7d62a8e8eb3c55f10e.jpg'
   isNew={true}
