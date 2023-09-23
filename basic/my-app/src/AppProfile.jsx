@@ -3,8 +3,14 @@ import Profile from './components/Profile';
 import Avatar from './components/Avatar';
 
 export default function AppProfile() {
+  const hanleClick = (event) =>{
+    console.log(event);
+    alert('버튼버튼');
+  }
   return (
   <>
+
+  <button onClick={(hanleClick)}>수경수버튼</button>
   <Avatar 
   image='https://i.pinimg.com/564x/1f/d3/03/1fd3036613cfff7d62a8e8eb3c55f10e.jpg'
   isNew={true}
