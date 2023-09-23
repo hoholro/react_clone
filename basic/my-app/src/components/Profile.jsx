@@ -1,7 +1,16 @@
-import React from "react";
+import React from 'react';
 
-function Profile() {
-  return <div>Profile</div>;
+export default function Profile({ image, name, title, isNew}) {
+  return (
+    <div className="profile">
+    {isNew && <span className="new">new</span>}
+    <img
+      className="photo"
+      src={image}
+      alt="profile_img"
+    />
+    <h1>{name}</h1>
+    <p>{title}</p>
+  </div>
+);
 }
-
-export default Profile;
