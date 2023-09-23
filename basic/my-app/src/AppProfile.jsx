@@ -1,10 +1,14 @@
 import "./App.css";
 import Profile from './components/Profile';
-
+import Avatar from './components/Avatar';
 
 export default function AppProfile() {
   return (
   <>
+  <Avatar 
+  image='https://i.pinimg.com/564x/1f/d3/03/1fd3036613cfff7d62a8e8eb3c55f10e.jpg'
+  isNew={true}
+  />
   <Profile 
   image='https://i.pinimg.com/474x/3f/11/75/3f1175afc799a71c207bd8538e53d1c8.jpg'
   name ='수경수'
