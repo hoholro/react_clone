@@ -11,7 +11,9 @@ export default function Counter() {
     <div className='counter'>
         <span className='number'>{count}</span>
         <button className='button' onClick={() =>{
-            setcount(count + 1);
+            // setcount(count + 1);
+            setcount((prev) => prev + 1);
+            // setcount((prev) => return prev + 1); 와 동일
             }}>Add</button>
     </div>
     )
