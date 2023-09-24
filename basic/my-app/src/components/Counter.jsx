@@ -11,10 +11,13 @@ export default function Counter() {
     <div className='counter'>
         <span className='number'>{count}</span>
         <button className='button' onClick={() =>{
-            setcount(count + 1);
+            // setcount(count + 1);
+            setcount((prev) => prev + 1);
+            // setcount((prev) => return prev + 1); 와 동일
             }}>Add</button>
     </div>
     )
     // setcount 호출하게 되면 내부상태가 변경되고, 내부가 변경이 될때마다 리액트는 변경되는 컴포넌트를 다시 호출한다
     // useState(0) 아무리 다시 호출이 되어도 값을 기억하기 떄문에 증가된 값을 기억할수가있다
+    // 콜백함수로 지정하는것이 더 안전하다
 }
