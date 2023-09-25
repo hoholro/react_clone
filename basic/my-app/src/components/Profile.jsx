@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from './Avatar';
 
+<<<<<<< Updated upstream
 export default function Profile({ image, name, title, isNew}) {
   return (
     <div className="profile">
@@ -10,4 +11,14 @@ export default function Profile({ image, name, title, isNew}) {
     <p>{title}</p>
   </div>
 );
+=======
+function Profile(props) {
+  return (
+    <div className="profile">
+      <img className="photo" src={props.image} alt="profile" />
+      <h1>{props.name}</h1>
+      <p>{props.title}</p>
+    </div>
+  );
+>>>>>>> Stashed changes
 }

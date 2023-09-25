@@ -1,6 +1,10 @@
 import "./App.css";
+<<<<<<< Updated upstream
 import Profile from './components/Profile';
 import Avatar from './components/Avatar';
+=======
+import Profile from "./components/Profile";
+>>>>>>> Stashed changes
 
 export default function AppProfile() {
   const hanleClick = (event) =>{
@@ -8,6 +12,7 @@ export default function AppProfile() {
     alert('버튼버튼');
   }
   return (
+<<<<<<< Updated upstream
   <>
 
   <button onClick={(hanleClick)}>수경수버튼</button>
@@ -36,5 +41,14 @@ export default function AppProfile() {
   isNew={true}
   />
   </>
+=======
+    <>
+      <Profile
+        image="https://i.pinimg.com/564x/66/47/33/664733f20e70d1a141ccf4409ec6970b.jpg"
+        name="수경수"
+        title="대부자개발자"
+      />
+    </>
+>>>>>>> Stashed changes
   );
 }
