@@ -4,13 +4,14 @@ import "./index.css";
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 import AppProfile from "./AppProfile";
-import Avatar from './components/Avatar';
-import AppCounter from './AppCounter';
+import Avatar from "./components/Avatar";
+import AppCounter from "./AppCounter";
+import AppProducts from "./AppProducts";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppCounter/>
+    <AppProducts />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
